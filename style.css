@@ -69,3 +69,56 @@ body {
     overflow: scroll;
 
 }
+
+
+
+
+/* Track */
+.navbar::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+/* Handle */
+.navbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 4px solid transparent;
+    border-radius: 8px;
+
+}
+
+/* Handle on hover */
+.navbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.main::-webkit-scrollbar-corner {
+    border-radius: 5px;
+}
+
+.main::-webkit-scrollbar {
+    width: 8px;
+    height: 0px
+}
+
+/* Track */
+.main::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+/* Handle */
+.main::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 4px solid transparent;
+    border-radius: 8px;
+
+
+}
+
+/* Handle on hover */
+.main::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.main::-webkit-scrollbar-corner {
+    border-radius: 5px;
+}
